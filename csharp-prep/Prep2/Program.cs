@@ -35,11 +35,11 @@ class Program
 
         if (final_grade >= 70)
         {
-            Console.WriteLine($"Congrats! You have passed with an {letter}! :)");
+            Console.WriteLine($"Congrats! You have passed with an {letter}! \n :)");
         }
         else
         {
-            Console.WriteLine("Unfortunately you did not pass. :,(");
+            Console.WriteLine("Unfortunately you did not pass. \n:,(");
         }
     }
 }
