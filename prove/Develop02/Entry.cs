@@ -1,18 +1,17 @@
 public class Entry
 {
     private string _entry = "";
-    private string _date;
+    private string _prompt = "";
+    // private string _date;
 
     public void CreateEntry()
     {   
-        // Prompt p = new Prompt();
-        Console.Write("Tell me about your day: \n> "); // Console.WriteLine("$"p.GetPrompt");
-        _entry = Console.ReadLine();
+        Console.WriteLine();
 
     }
 
-    public void Display()
-    {
-        Console.WriteLine($"{_entry} | {_date}");
-    }
+    // public void Display()
+    // {
+    //     Console.WriteLine($"{_entry} | {_date}");
+    // }
 }
