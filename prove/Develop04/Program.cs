@@ -16,8 +16,10 @@ class Program
         {
 
             Console.Clear();
+
             Console.WriteLine("Menu options:\n  1. Breathing activity\n  2. Reflecting activity\n  3. Listing activity\n  4. Quit");
             Console.WriteLine("Select a choice from the menu: ");
+
             response = Console.ReadLine() ?? String.Empty;
 
             switch (response)
@@ -27,14 +29,17 @@ class Program
                     breathingModule.DisplayTransScreen();
                     breathingModule.Activity();
                     break;
+
                 case "2":
                     reflectingModule.DisplayTransScreen();
                     reflectingModule.Activity();
                     break;
+
                 case "3":
                     listingModule.DisplayTransScreen();
                     listingModule.Activity();
                     break;
+                    
                 case "4":
                     Environment.Exit(0);
                     break;
@@ -45,3 +50,6 @@ class Program
         }
     }
 }
+
+
+// Phew..now this one was a hassle. 
