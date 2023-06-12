@@ -32,7 +32,7 @@ class ReflectingModule : ActivityModule
         Console.WriteLine($"\n --- {prompts[randomNumber]} ---");
         Console.WriteLine("\nWhen you have something in mind, press enter to continue. \n");
         Console.ReadLine();
-        Console.Write("Now ponder on each of the following questions as they relate to this experience.\nYou may begin in: ");
+        Console.Write("Now ponder on each of the following questions as they relate to this experience.\nYou may begin in: "); //If you find this, say hi to me next time you see me.
         Counter(5);
         Console.Clear();
         Console.WriteLine($" > {questions[randomNumber]} ");
@@ -41,6 +41,6 @@ class ReflectingModule : ActivityModule
         Pause(5);
 
         EndMessage();
-        
+
     }
 }

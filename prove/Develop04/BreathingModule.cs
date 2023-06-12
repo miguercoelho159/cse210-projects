@@ -12,9 +12,12 @@ class BreathingModule : ActivityModule
         while (i <= totalActivities)
         {
             Console.Write("\nBreath in...    ");
+
             Counter(3);
             Console.Clear();
+
             Console.Write("\nBreath out...   ");
+            
             Counter(3);
             Console.Clear();
 

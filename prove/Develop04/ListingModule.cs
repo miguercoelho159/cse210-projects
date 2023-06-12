@@ -20,7 +20,9 @@ class ListingModule : ActivityModule
         Console.WriteLine("List as many responses as you can to the following prompt:");
         Console.WriteLine($" --- {prompts[randomNumber]} ---");
         Console.Write("\nYou may begin in: ");
+
         Counter(5);
+        
         Console.Write("\b\n");
 
         int i = 0;
@@ -33,6 +35,7 @@ class ListingModule : ActivityModule
         }
 
         Console.WriteLine($"You listed {i} items!\n");
+
         EndMessage();
     }
 }

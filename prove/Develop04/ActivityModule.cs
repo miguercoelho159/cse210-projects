@@ -37,12 +37,14 @@ class ActivityModule
         Console.Clear();
         Console.WriteLine($"Welcome to the {_activity} activity.\n{_startMessage}\n");
         Console.WriteLine("How much time in seconds do you wish to do this activity? ");
+
         string durString = Console.ReadLine();
         int duration = int.Parse(durString);
         SetDuration(duration);
 
         Console.Clear();
         Console.WriteLine("Get ready...");
+
         Pause(2);
     }
 
@@ -73,12 +75,13 @@ class ActivityModule
         return _startMessage;
     }
 
-
     public void EndMessage()
     {
         Console.WriteLine("Well done!!");
         Pause(2);
+
         Console.WriteLine($"You have completed another {_duration} seconds of the {_activity} Activity.");
+        
         Pause(3);
 
     }
