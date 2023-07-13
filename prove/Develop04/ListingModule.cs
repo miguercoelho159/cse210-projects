@@ -10,7 +10,7 @@ class ListingModule : ActivityModule
         prompts.Add("Who are people that you have helped this week?");
         prompts.Add("When have you felt the Holy Ghost this month?");
         prompts.Add("Who are some of your personal heroes?");
-    }
+    } 
 
     public void Activity()
     {
